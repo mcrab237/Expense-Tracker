@@ -7,12 +7,11 @@ function HomePage() {
   const [text, setText] = useState("");
   const [income, setIncome] = useState(0);
   const [expense, setExpense] = useState(0);
-  const [key, setKey] = useState(1);
+  const key = 0;
   const [total, setTotal] = useState(1000);
   const [data, setData] = useState([]);
   const [ok, setOk] = useState(false);
   const [type, setType] = useState("expense");
-  const [selected, setSelected] = useState(false);
   const handleSubmit = () => {
     if (type === "income") {
       setTotal(parseFloat(total) + parseFloat(amount));

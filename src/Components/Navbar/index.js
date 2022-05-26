@@ -2,7 +2,6 @@ import React from "react";
 import {
   NavContainer,
   NavElementsLeft,
-  NavElementsRight,
   NavLink,
   NavWrapper,
 } from "./NavbarElements";
